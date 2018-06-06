@@ -1,0 +1,13 @@
+:host {
+    width: 100%;
+    background-color: black;
+    min-height: 100%;
+}
+
+.app-widget-container {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

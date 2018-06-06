@@ -1,0 +1,8 @@
+
+  <button (click)="onAddWidgetClick()">Добавить виджет</button>
+  <div class="app-widget-container">
+    <app-widget
+      *ngFor="let fixture of fixtures"
+      [data] = "fixture" 
+    ></app-widget>
+  </div>
